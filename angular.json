@@ -1,3 +1,5 @@
+
+
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
@@ -91,7 +93,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/ngx-lightbox/lightbox.css"
             ],
             "scripts": []
           }
@@ -124,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "katalog2"
+  "defaultProject": "katalog2",
+  "cli": {
+    "analytics": "63dab3a0-033c-4dee-9a94-763d1807a305"
+  }
 }
